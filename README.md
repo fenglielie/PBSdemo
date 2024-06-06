@@ -4,7 +4,7 @@
 
 - 一个计算素数表的C++程序（prime.cpp），耗时大约一分钟（可以修改素数表上限以改变耗时）
 - 配套的编译脚本 Makefile
-- PBS作业脚本 prime_job.sh
+- PBS作业脚本 prime_job.pbs
 
 使用方法如下：
 
@@ -15,7 +15,7 @@ make
 
 第二步，使用`qsub`命令提交PBS作业
 ```bash
-qsub prime_job.sh
+qsub prime_job.pbs
 ```
 
 在提交PBS作业后会返回一个作业号，例如24238.mu01。（下面均以此为例）
